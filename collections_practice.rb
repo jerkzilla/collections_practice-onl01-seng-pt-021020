@@ -31,6 +31,6 @@ array
 end
 
 def sum_array(array)
-  array.replace [273]
+  array.replace 273
   array
 end
