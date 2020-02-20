@@ -10,3 +10,7 @@ end
 def sort_array_char_count(array)
   array.sort_by { |word| word.downcase }
 end
+
+def swap_elements(array)
+array[0], array[3] = array[3], array[0]
+end
