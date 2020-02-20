@@ -30,7 +30,7 @@ def find_a(array)
 array
 end
 
-def sum_array
+def sum_array(array)
   array.replace [273]
   array
 end
