@@ -26,5 +26,5 @@ array
 end
 
 def find_a(array)
-  array.find{|i| i."a?} 
+  array.find{|i| i."a?}
 end
