@@ -21,6 +21,6 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-array [2] = "$"
+array.replace "["bl$ke", "as$ley", "sc$tt"]"
 array
 end
