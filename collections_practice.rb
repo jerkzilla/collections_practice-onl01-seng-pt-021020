@@ -31,6 +31,5 @@ array
 end
 
 def sum_array(array)
-  array.replace 273
-  array
+  array.inject(0){|sum,x| sum + x }
 end
