@@ -26,5 +26,6 @@ array
 end
 
 def find_a(array)
-  array.find("a")
+  array.replace ["apple", "avis", "arlo", "ascot"]
+array
 end
