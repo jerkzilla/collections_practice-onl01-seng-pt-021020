@@ -33,3 +33,9 @@ end
 def sum_array(array)
   array.inject(0){|sum,x| sum + x }
 end
+
+def add_s(input)
+  input.each_with_index.map do |element, index|
+    index == 1 ? element : element + "s"
+  end
+end  
