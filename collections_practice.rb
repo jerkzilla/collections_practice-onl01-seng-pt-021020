@@ -24,3 +24,7 @@ def kesha_maker(array)
 array.replace ["bl$ke", "as$ley", "sc$tt"]
 array
 end
+
+def find_a(array)
+  array.find{|i| i."a?} 
+end
