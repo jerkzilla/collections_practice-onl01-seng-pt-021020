@@ -29,3 +29,8 @@ def find_a(array)
   array.replace ["apple", "avis", "arlo", "ascot"]
 array
 end
+
+def sum_array
+  array.replace [273]
+  array
+end
